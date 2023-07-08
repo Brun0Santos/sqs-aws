@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: service-queue-aws
+
+cloud:
+  aws:
+    region:
+      static: <SUA-ZONA>
+      auto: false
+
+    stack:
+      auto: false
+
+    credentials:
+      access-key: <SUA-ACCESS-KEY>
+      secret-key: <SUA-SECRET-KEY>
+
+    end-point:
+      uri: <URL-DA-FILA>
+
+server:
+  port: 8083
+
